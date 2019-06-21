@@ -1,1 +1,76 @@
-<!DOCTYPE html><html lang="en"> <head> <meta charset="UTF-8" /> <meta name="viewport" content="width=device-width, initial-scale=1.0" /> <meta http-equiv="X-UA-Compatible" content="ie=edge" /> <title>Bootstrap Image Gallary</title> <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous" /> <style> body { padding-top: 70px; } .jumbotron { color: #004d40; background: #e0f2f1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } .navbar-inverse { background: #004d40; } .navbar-inverse .navbar-nav > li > a { color: white; } .navbar-inverse .navbar-brand { color: white; } </style> </head> <body> <!-- Navbar component --> <nav class="navbar navbar-inverse navbar-fixed-top"> <div class="container"> <div class="navbar-header"> <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nav-demo" aria-expanded="false" > <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button> <a href="#" class="navbar-brand" ><span class="glyphicon glyphicon-picture" aria-hidden="true" ></span> David/Soto</a > </div> <div class="collapse navbar-collapse" id="bs-nav-demo"> <ul class="nav navbar-nav"> <li><a href="#">About</a></li> <li><a href="#">Contact</a></li> </ul> <ul class="nav navbar-nav navbar-right"> <li><a href="#">Sign Up</a></li> <li><a href="#">Login</a></li> </ul> </div> </div> </nav> <!-- Header section --> <div class="container"> <div class="jumbotron"> <h1> <span class="glyphicon glyphicon-camera" aria-hidden="true"></span> Dave's Image Gallery </h1> <p> <span class="glyphicon glyphicon-refresh" aria-hidden="true"></span> Refresh the page to see the magic! </p> </div> <!-- Images --> <div class="row"> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?technology" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?color" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?programming" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?art" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?street-art" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?graffiti" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?music" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?comic-book" /> </div> </div> <div class="col-lg-4 col-sm-6"> <div class="thumbnail"> <img src="https://source.unsplash.com/500x500/?space" /> </div> </div> </div> </div> </body></html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta content="width=device-width, initial-scale=1.0" name="viewport">
+	<meta content="ie=edge" http-equiv="X-UA-Compatible">
+	<title>Bootstrap Image Gallary</title>
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+	<style>
+	body { padding-top: 70px; } .jumbotron { color: #004d40; background: #e0f2f1; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); } .navbar-inverse { background: #004d40; } .navbar-inverse .navbar-nav > li > a { color: white; } .navbar-inverse .navbar-brand { color: white; } 
+	</style>
+</head>
+<body>
+	<!-- Navbar component -->
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<button aria-expanded="false" class="navbar-toggle collapsed" data-target="#bs-nav-demo" data-toggle="collapse" type="button"><span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span></button> <a class="navbar-brand" href="#"><span aria-hidden="true" class="glyphicon glyphicon-picture"></span> David/Soto</a>
+			</div>
+			<div class="collapse navbar-collapse" id="bs-nav-demo">
+				<ul class="nav navbar-nav">
+					<li>
+						<a href="#">About</a>
+					</li>
+					<li>
+						<a href="#">Contact</a>
+					</li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li>
+						<a href="#">Sign Up</a>
+					</li>
+					<li>
+						<a href="#">Login</a>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav><!-- Header section -->
+	<div class="container">
+		<div class="jumbotron">
+			<h1><span aria-hidden="true" class="glyphicon glyphicon-camera"></span> Dave's Image Gallery</h1>
+			<p><span aria-hidden="true" class="glyphicon glyphicon-refresh"></span> Refresh the page to see the magic!</p>
+		</div><!-- Images -->
+		<div class="row">
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?technology"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?color"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?programming"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?art"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?street-art"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?graffiti"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?music"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?comic-book"></div>
+			</div>
+			<div class="col-lg-4 col-sm-6">
+				<div class="thumbnail"><img src="https://source.unsplash.com/500x500/?space"></div>
+			</div>
+		</div>
+	</div>
+</body>
+</html>
